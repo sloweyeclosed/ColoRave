@@ -7,3 +7,13 @@
   --btn-border-adv: #8e32c6;
   --footer-bg: #021635;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}

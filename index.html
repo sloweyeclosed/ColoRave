@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ColorRawe</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -12,26 +19,19 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/block/header.css" />
     <link rel="stylesheet" href="css/block/hero.css" />
     <link rel="stylesheet" href="css/block/advantages.css" />
     <link rel="stylesheet" href="css/block/reviews.css" />
     <link rel="stylesheet" href="css/block/order.css" />
     <link rel="stylesheet" href="css/block/footer.css" />
-    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
       <div class="container header-flex">
         <a href="#">
-          <div class="logo"></div>
+          <img src="/img/icon/logo.svg" alt="logo" />
         </a>
         <nav class="header-nav">
           <ul class="header-list">
@@ -56,8 +56,14 @@
           </ul>
         </nav>
         <div class="header-language">
-          <button class="change-lang">Ua</button>
-          <button class="change-lang">Eng</button>
+          <ul class="language-list">
+            <li class="language-item">
+              <a href="#" class="change-lang">Ua</a>
+            </li>
+            <li class="language-item">
+              <a href="#" class="change-lang">Eng</a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -235,7 +241,12 @@
             <li class="footer-cp-item">2022 ColoRawe @All rights reserved</li>
             <li class="footer-cp-item">United States</li>
           </ul>
-          <h2 class="hero-logoname">С&R</h2>
+          <div class="footer-logo-wrap">
+            <a href="">
+              <img class="footer-logo" src="/img/logo/logo.svg" alt="logo" />
+              <p class="footer-logo-txt">С&R</p>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
