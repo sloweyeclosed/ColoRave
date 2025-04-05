@@ -51,12 +51,5 @@
 .hero-btn {
   padding: 20px 61px;
   border: none;
-
   border-radius: 10px;
-  background-color: var(--btn-border-adv);
-  color: var(--hovheader-link-text);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }

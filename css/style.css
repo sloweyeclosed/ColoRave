@@ -40,3 +40,12 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.btn {
+  border: none;
+  background: var(--btn-border-adv);
+  color: var(--hovheader-link-text);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
