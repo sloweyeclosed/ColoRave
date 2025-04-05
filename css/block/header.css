@@ -1,0 +1,36 @@
+.header {
+  background-color: var(--header-bg);
+  padding: 17px 0;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  gap: 30px;
+  margin-left: 152px;
+}
+
+.header-link {
+  color: var(--header-link);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  transition: all 0.3s ease-in-out;
+}
+.header-item:first-child a {
+  color: var(--hovheader-link-text);
+}
+.header-link:hover,
+.change {
+  color: var(--hovheader-link-text);
+}
+.header-language {
+  margin-left: auto;
+}
+.language-list {
+  display: flex;
+  gap: 15px;
+}
