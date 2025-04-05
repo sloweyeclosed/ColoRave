@@ -23,7 +23,7 @@
   background-size: cover;
 }
 .hero-title {
-  color: #fff;
+  color: var(--hovheader-link-text);
   font-family: "Playfair Display";
   font-size: 144px;
   font-style: normal;
