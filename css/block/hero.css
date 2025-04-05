@@ -1,6 +1,6 @@
 .hero {
   padding: 183px 0 183px 0;
-  background-image: url(/img/hero/bg-hero.jpg);
+  background-image: url(../../img/hero/bg-hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,7 +17,7 @@
   display: block;
   width: 160px;
   height: 120px;
-  background-image: url(/img/logo/logo.svg);
+  background-image: url(../../img/logo/logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
