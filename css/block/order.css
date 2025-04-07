@@ -19,10 +19,15 @@
   border: none;
   border-radius: 50px;
   padding: 11px 24px;
+  color: var(--input-text);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
 }
 #form-email {
   width: 690px;
   padding: 13px 25px;
+  font-size: 28px;
 }
 .order-form-btn {
   padding: 20px 50px;
