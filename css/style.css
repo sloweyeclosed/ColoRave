@@ -8,7 +8,9 @@
   --footer-bg: #021635;
   --input-text: #959595;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
