@@ -1,4 +1,6 @@
 .footer {
+  display: flex;
+
   padding: 45px 0 37px 0;
   background-color: var(--footer-bg);
   color: var(--hovheader-link-text);
@@ -7,6 +9,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--change);
   margin-bottom: 20px;
 }
 .footer-text-list {
@@ -34,7 +38,7 @@
   text-underline-position: from-font;
 }
 .footer-cr-l {
-  margin-top: 24px;
+  /* margin-top: 24px; */
   display: flex;
   justify-content: space-between;
 }

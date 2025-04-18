@@ -32,4 +32,9 @@
 .order-form-btn {
   padding: 20px 50px;
   border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.order-form-btn:hover {
+  opacity: 0.8;
 }

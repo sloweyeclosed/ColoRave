@@ -27,10 +27,9 @@
 .change {
   color: var(--hovheader-link-text);
 }
-.header-language {
-  margin-left: auto;
-}
+
 .language-list {
   display: flex;
   gap: 15px;
+  margin-left: auto;
 }
